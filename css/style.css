@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "PFBulletinSansPro-Bold";
+    src: url("../fonts/pfbulletinsanspro-bold.ttf");
+}
+
+@font-face{
+    font-family: "PFBulletinSansPro-Light";
+    src: url("../fonts/pfbulletinsanspro-light.ttf");
+}
+
+@font-face{
+    font-family: "PFBulletinSansPro-Medital";
+    src: url("../fonts/pfbulletinsanspro-medital.ttf");
+}
+
+@font-face{
+    font-family: "PFBulletinSansPro-Redular";
+    src: url("../fonts/pfbulletinsanspro-regular.ttf");
+}
+
+body{
+        
+}
+
+header{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 450px;
+}
+
+.main-menu{
+    width: 900px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu a{
+    font-family: "PFBulletinSansPro-Bold";
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
