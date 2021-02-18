@@ -218,3 +218,19 @@ footer .wrapper{
     line-height: 35px;
     padding: 0 150px;
 }
+
+.contacts{
+    min-height: 590px;
+    font-family: "PFBulletinSansPro-Light", sans-serif;
+}
+
+.contacts .wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.contacts p{
+    font-size: 25px;
+    line-height: 35px;
+}
+
