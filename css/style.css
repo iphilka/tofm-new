@@ -65,9 +65,15 @@ header{
     padding: 0;
     list-style: none;
     position: absolute;
+    /* left: -100px; */
     background-color: rgb(255, 102, 0);
     border-radius: 5px;
     z-index: 5;
+    width: 400px;
+}
+
+.item-conf{
+    position: relative;
 }
 
 .item-conf:hover .menu-conf{
