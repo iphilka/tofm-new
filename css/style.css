@@ -64,6 +64,24 @@ header{
     background-size: 100% 2px;
 }
 
+.menu-conf{
+    display: none;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    z-index: 5;
+}
+
+.item-conf:hover .menu-conf{
+    display: block;
+}
+
+.menu-conf li{
+    padding: 20px 35px;
+}
+
 .slider{
     height: 550px;
     background-image: url("../img/slider-1.jpg");
@@ -167,6 +185,9 @@ footer{
 footer .wrapper{
     width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .social{
