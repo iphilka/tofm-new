@@ -244,3 +244,61 @@ footer .wrapper{
     line-height: 35px;
 }
 
+.archive-title{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "PFBulletinSansPro-Light", sans-serif;
+    font-weight: 700;
+}
+
+.school-metal .wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "PFBulletinSansPro-Light", sans-serif;
+}
+
+.school-metal ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.school-metal li{
+    padding: 45px 90px;
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
+    margin-bottom: 30px;
+ }
+
+.school-metal a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+
+.school-term .wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "PFBulletinSansPro-Light", sans-serif;
+}
+
+.school-term ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.school-term li{
+    padding: 45px 90px;
+    border-radius: 10px;
+    background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
+    margin-bottom: 30px;
+}
+
+.school-term a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
