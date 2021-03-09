@@ -23,7 +23,7 @@
 }
 
 header{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     padding: 30px 5px;
     display: flex;
@@ -88,7 +88,7 @@ header{
     height: 550px;
     background-image: url("../img/slider-1.jpg");
     position: relative;
-    padding: 15px;
+    padding: 35px;
 }
 
 .slider h2{
@@ -112,7 +112,7 @@ header{
 }
 
 .slider .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ header{
     position: absolute;
     display: block;
     height: 100px;
-    left: 155px;
+    left: 75px;
     top: 220px;
 }
 
@@ -128,7 +128,7 @@ header{
     position: absolute;
     display: block;
     height: 100px;
-    right: 155px;
+    right: 75px;
     top: 220px;
 }
 
@@ -150,7 +150,7 @@ header{
 }
 
 .news .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -182,7 +182,7 @@ footer{
 }
 
 footer .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -212,7 +212,7 @@ footer .wrapper{
 }
 
 .history .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -235,7 +235,7 @@ footer .wrapper{
 }
 
 .contacts .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -245,14 +245,14 @@ footer .wrapper{
 }
 
 .archive-title{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     font-family: "PFBulletinSansPro-Light", sans-serif;
     font-weight: 700;
 }
 
 .school-metal .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     font-family: "PFBulletinSansPro-Light", sans-serif;
 }
@@ -278,7 +278,7 @@ footer .wrapper{
 }
 
 .school-term .wrapper{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     font-family: "PFBulletinSansPro-Light", sans-serif;
 }
