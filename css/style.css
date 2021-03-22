@@ -265,16 +265,47 @@ footer .wrapper{
 }
 
 .school-metal li{
-    padding: 45px 90px;
+    padding: 25px 90px;
     border-radius: 10px;
     background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
     margin-bottom: 30px;
+    position: relative;
+    font-size: 30px;
  }
 
 .school-metal a{
     text-decoration: none;
     color: #000000;
-    font-size: 30px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.school-metal .content{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 17%;
+    background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
+    border-radius: 10px;
+}
+
+.school-metal li:hover .content{
+    display: block;
+    animation-duration: 0.5s;
+    animation-name: arhive-show;
+}
+
+@keyframes arhive-show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .school-term .wrapper{
@@ -291,10 +322,12 @@ footer .wrapper{
 }
 
 .school-term li{
-    padding: 45px 90px;
+    padding: 60px 90px;
     border-radius: 10px;
     background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
     margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .school-term a{
