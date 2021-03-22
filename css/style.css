@@ -288,9 +288,13 @@ footer .wrapper{
     width: 100%;
     height: 100%;
     text-align: center;
-    padding-top: 17%;
+    padding: 17%;
     background: linear-gradient(320deg, rgba(253,29,29,1) 50%, rgba(233,248,32,1) 100%);
     border-radius: 10px;
+}
+
+.school-metal .one-book{
+    padding: 25%;
 }
 
 .school-metal li:hover .content{
